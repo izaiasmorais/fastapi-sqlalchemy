@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Uma API auto-documentável com FastAPI, Pydantic e SQLAlchemy.
+Uma API auto-documentável com FastAPI e SQLAlchemy.
 
 ## Tecnologias
 
@@ -37,25 +37,25 @@ Uma API auto-documentável com FastAPI, Pydantic e SQLAlchemy.
 
 ## Endpoints
 
-| Método   | Endpoint        | Descrição                                   | Autenticação |
-| -------- | --------------- | ------------------------------------------- | ------------ |
-| **GET**  | `/health`       | Health check da API                         | ❌           |
-| **POST** | `/auth/sign-up` | Registrar um novo usuário                   | ❌           |
-| **POST** | `/auth/sign-in` | Fazer login e obter o token de autenticação | ❌           |
-| **GET**  | `/auth/profile` | Obter o perfil do usuário autenticado       | ✅           |
+| Método   | Endpoint        | Descrição                                   |
+| -------- | --------------- | ------------------------------------------- |
+| **GET**  | `/health`       | Health check da API                         |
+| **POST** | `/auth/sign-up` | Registrar um novo usuário                   |
+| **POST** | `/auth/sign-in` | Fazer login e obter o token de autenticação |
+| **GET**  | `/auth/profile` | Obter o perfil do usuário autenticado       |
 
 ## Instalação
 
 Clone o repositório na sua máquina:
 
 ```bash
-git clone https://github.com/izaiasmorais/fastapi-clean
+git clone https://github.com/izaiasmorais/fastapi-sqlalchemy
 ```
 
 Acesse o projeto:
 
 ```bash
-cd fastapi-clean
+cd fastapi-sqlalchemy
 ```
 
 Instale o UV (se ainda não tiver):
